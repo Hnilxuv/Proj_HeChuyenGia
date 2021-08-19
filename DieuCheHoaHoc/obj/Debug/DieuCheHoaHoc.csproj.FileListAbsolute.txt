@@ -1,0 +1,52 @@
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe.config
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.pdb
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csprojAssemblyReference.cache
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.Properties.Resources.resources
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.GenerateResource.cache
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CoreCompileInputs.cache
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.DieuCheForm.resources
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.MainForm.resources
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.ThemForm.resources
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.KetQua.resources
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.TroGiupForm.resources
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\bin\Debug\C5.dll
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\bin\Debug\C5.xml
+D:\hhck\TUH+HCG+QTM\btl hcg\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe.config
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.pdb
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\bin\Debug\C5.dll
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\bin\Debug\C5.xml
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csprojAssemblyReference.cache
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.DieuCheForm.resources
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.KetQua.resources
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.MainForm.resources
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.Properties.Resources.resources
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.ThemForm.resources
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.TroGiupForm.resources
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.GenerateResource.cache
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CoreCompileInputs.cache
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
+D:\Project\winform\HCGHoaHoc\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe.config
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.pdb
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\bin\Debug\C5.dll
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\bin\Debug\C5.xml
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.AssemblyReference.cache
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.DieuCheForm.resources
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.KetQua.resources
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.MainForm.resources
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.Properties.Resources.resources
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.ThemForm.resources
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.TroGiupForm.resources
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.GenerateResource.cache
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CoreCompileInputs.cache
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
+D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\bin\Debug\FontAwesome.Sharp.dll
