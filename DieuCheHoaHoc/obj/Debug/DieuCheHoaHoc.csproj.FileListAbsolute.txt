@@ -50,3 +50,21 @@ D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_N
 D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
 D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
 D:\tài liệu\hệ chuyên gia\HE CHUYEN GIA_CHIEU THU 3\Nhóm 28\ChuongTrinh_Nhom28\DieuCheHoaHoc\bin\Debug\FontAwesome.Sharp.dll
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe.config
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.pdb
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\C5.dll
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\FontAwesome.Sharp.dll
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\C5.xml
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.AssemblyReference.cache
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.DieuCheForm.resources
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.KetQua.resources
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.MainForm.resources
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.Properties.Resources.resources
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.ThemForm.resources
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.TroGiupForm.resources
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.GenerateResource.cache
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CoreCompileInputs.cache
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
+D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
