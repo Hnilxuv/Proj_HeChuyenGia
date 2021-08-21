@@ -14,7 +14,7 @@ namespace DieuCheHoaHoc
     public partial class ThemForm : Form
     {
         private List<PhanUng> phanUngs;
-        private PhanUng pu;
+        private List<PhanUng> pu= new List<PhanUng>();
         private Stack<int> delList;
 
         public ThemForm() {
@@ -68,14 +68,32 @@ namespace DieuCheHoaHoc
         }
 
         private void btnThem_Click(object sender, EventArgs e) {
-            if (!phanUngs.Contains(pu)) {
-                phanUngs.Add(pu);
-                capNhatCacPhanUng();
+            for(int i=0; i<pu.Count(); i++)
+            {
+                if(i == 0)
+                {
+                    if (!phanUngs.Contains(pu[i]))
+                    {
+                        phanUngs.Add(pu[i]);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Phản ứng đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    }
+                }
+                else
+                {
+                    if (!phanUngs.Contains(pu[i]))
+                    {
+                        phanUngs.Add(pu[i]);
+                    }
+                }
             }
-            else {
-                MessageBox.Show("Phản ứng đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            pu.Clear();
+            capNhatCacPhanUng();
             btnThem.Enabled = false;
+            
         }
 
         private void btnXoa_Click(object sender, EventArgs e) {
@@ -115,13 +133,25 @@ namespace DieuCheHoaHoc
             foreach (string s in sp) {
                 if (s.Length > 0) vp.Add(new ChatHoaHoc(s));
             }
+
             if (vt.Count == 0 || vp.Count == 0) {
                 MessageBox.Show("Vui lòng nhập đủ 2 vế của phản ứng");
             }
             else {
-                pu = new PhanUng(vt, vp, dk);
+                string str =" ";
+                for (int i = 0; i < vp.Count(); i++) 
+                {
+                    List<ChatHoaHoc> vp1 = new List<ChatHoaHoc>();
+                    vp1.Add(vp[i]); PhanUng pu1 = new PhanUng(vt, vp1, dk);
+                    pu.Add(pu1);
+                    if (i == 0)
+                        str = pu1.ToString();
+                    else
+                    {
+                        str += " " + vp1[0].ToString();
+                    }
+                }
 
-                string str = pu.ToString();
                 txtXemTruoc.Text = str;
                 btnThem.Enabled = true;
             }

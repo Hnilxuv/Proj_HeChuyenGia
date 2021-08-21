@@ -68,3 +68,20 @@ D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.cspro
 D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
 D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
 D:\Nam3\KiHe\HCG\BTL\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe.config
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.pdb
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\C5.dll
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\C5.xml
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.DieuCheForm.resources
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.KetQua.resources
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.MainForm.resources
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.Properties.Resources.resources
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.ThemForm.resources
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.TroGiupForm.resources
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
