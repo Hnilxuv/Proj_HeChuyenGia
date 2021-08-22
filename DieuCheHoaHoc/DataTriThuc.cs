@@ -14,9 +14,9 @@ namespace DieuCheHoaHoc
         private List<PhanUng> phanUngs;
 
         public static void toFile(List<PhanUng> pus) {
-            StreamWriter sw = new StreamWriter(triThucPath);
+            StreamWriter sw = new StreamWriter(triThucPath, true);
             foreach (PhanUng pu in pus) {
-                sw.WriteLine(pu.ToText());
+                sw.Write("\n" + pu.ToText());
             }
             sw.Close();
         }

@@ -85,3 +85,21 @@ C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHo
 C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
 C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
 C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe.config
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.exe
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\DieuCheHoaHoc.pdb
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\C5.dll
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\FontAwesome.Sharp.dll
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\bin\Debug\C5.xml
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.AssemblyReference.cache
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.DieuCheForm.resources
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.KetQua.resources
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.MainForm.resources
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.Properties.Resources.resources
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.ThemForm.resources
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.TroGiupForm.resources
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.GenerateResource.cache
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CoreCompileInputs.cache
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
+D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
