@@ -1,3 +1,9 @@
+Fe3O4 O2 - Fe2O3
+Fe2O3 H2 -( t cao ) Fe
+Fe2O3 H2 -( t cao ) H2O
+Fe2O3 CO -( khử không hoàn toàn ) Fe3O4
+Fe2O3 CO -( khử không hoàn toàn ) CO2
+Fe3O4 O2 -( t ) Fe2O3
 Fe O2 -( t ) Fe2O3
 Fe H2O -( t ) Fe3O4
 Fe H2O -( t ) H2
@@ -27,6 +33,9 @@ Fe H2SO4 - FeSO4
 Fe H2SO4 - H2
 FeO H2SO4 - FeSO4
 FeO H2SO4 - H2O
+Fe H2SO4(đ) -( t ) Fe2(SO4)3
+Fe H2SO4(đ) -( t ) SO2
+Fe H2SO4(đ) -( t ) H2O
 Fe3O4 HNO3 -( t ) Fe(NO3)3
 Fe3O4 HNO3 -( t ) NO
 Fe3O4 HNO3 -( t ) H2O
@@ -52,4 +61,11 @@ FeO H2SO4(đ) - H2O
 Fe2O3 CO -( t ) FeO
 Fe2O3 CO -( t ) CO2
 Fe2O3 NaOH - Na2O
-Fe2O3 NaOH - Fe(OH)3NaOH Fe(OH)3 -( t, NaOH đặc nóng ) NaFeO2Fe3O4 H2SO4 -( t ) SO2Fe3O4 H2SO4 -( t ) H2OFe2O3 H2SO4 -( t ) Fe2(SO4)3Fe2O3 H2SO4 -( t ) H2O1 - 21 - 21 2 3 4 - 11 2 3 4 - 3b - bc - cd - d
+Fe2O3 NaOH - Fe(OH)3
+NaOH Fe(OH)3 -( t, NaOH đặc nóng ) H2O
+NaOH Fe(OH)3 -( t, NaOH đặc nóng ) NaFeO2
+Fe3O4 H2SO4 -( t ) Fe2(SO4)3
+Fe3O4 H2SO4 -( t ) SO2
+Fe3O4 H2SO4 -( t ) H2O
+Fe2O3 H2SO4 -( t ) Fe2(SO4)3
+Fe2O3 H2SO4 -( t ) H2O
