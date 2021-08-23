@@ -110,12 +110,14 @@ namespace DieuCheHoaHoc
             }
             pu.Clear();
             ThemPU();
-            lbxPhanUng.Items.Add(listPhanUng.Count + " _ " + str);
+            //lbxPhanUng.Items.Add(listPhanUng.Count + " _ " + str);
             btnThem.Enabled = false;
 
             //cập nhật List pu
             DataTriThuc data = new DataTriThuc();
             listPhanUng = data.GetPhanUngs();
+            hienThi();
+            phanUngs.Clear();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

@@ -24,19 +24,45 @@ namespace DieuCheHoaHoc
         public static void toDelete(string luat)
         {
             string tempFile = Path.GetTempFileName();
+
             using (var sr = new StreamReader(triThucPath))
             using (var sw = new StreamWriter(tempFile))
             {
+                int d = 0;
+                int d2 = dem();
                 string linee;
                 while ((linee = sr.ReadLine()) != null)
                 {
                     if (linee != luat)
-                        sw.WriteLine(linee);
+                    {
+                        if (d < d2 - 2)
+                        {
+                            sw.WriteLine(linee);
+                        }
+                        else
+                        {
+                            sw.Write(linee);
+                        }
+                        d++;
+                    }
                 }
             }
-
             File.Delete(triThucPath);
             File.Move(tempFile, triThucPath);
+
+        }
+
+        public static int dem()
+        {
+            StreamReader sr = new StreamReader(triThucPath);
+            int d2 = 0;
+            string linee2;
+            while ((linee2 = sr.ReadLine()) != null)
+            {
+                d2++;
+            }
+            sr.Close();
+            return d2;
         }
 
         public DataTriThuc() {
