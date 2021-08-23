@@ -103,3 +103,4 @@ D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.Co
 D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csproj.CopyComplete
 D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.exe
 D:\Nam3\KiHe\HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.pdb
+C:\Users\Admin\Desktop\BTL HCG\btl-hechuyengia\DieuCheHoaHoc\obj\Debug\DieuCheHoaHoc.csprojAssemblyReference.cache

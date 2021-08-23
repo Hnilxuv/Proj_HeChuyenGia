@@ -21,6 +21,24 @@ namespace DieuCheHoaHoc
             sw.Close();
         }
 
+        public static void toDelete(string luat)
+        {
+            string tempFile = Path.GetTempFileName();
+            using (var sr = new StreamReader(triThucPath))
+            using (var sw = new StreamWriter(tempFile))
+            {
+                string linee;
+                while ((linee = sr.ReadLine()) != null)
+                {
+                    if (linee != luat)
+                        sw.WriteLine(linee);
+                }
+            }
+
+            File.Delete(triThucPath);
+            File.Move(tempFile, triThucPath);
+        }
+
         public DataTriThuc() {
             // lay data tu file
             phanUngs = new List<PhanUng>();

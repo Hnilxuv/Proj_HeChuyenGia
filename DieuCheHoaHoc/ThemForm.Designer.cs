@@ -36,7 +36,6 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tlpPUCo = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnBoXoa = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -207,7 +206,6 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.btnBoXoa);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.txtSearch);
             this.panel3.Controls.Add(this.btnXoa);
@@ -216,16 +214,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(471, 110);
             this.panel3.TabIndex = 0;
-            // 
-            // btnBoXoa
-            // 
-            this.btnBoXoa.Location = new System.Drawing.Point(214, 55);
-            this.btnBoXoa.Name = "btnBoXoa";
-            this.btnBoXoa.Size = new System.Drawing.Size(121, 35);
-            this.btnBoXoa.TabIndex = 3;
-            this.btnBoXoa.Text = "Hoàn tác xóa";
-            this.btnBoXoa.UseVisualStyleBackColor = true;
-            this.btnBoXoa.Click += new System.EventHandler(this.btnBoXoa_Click);
             // 
             // label2
             // 
@@ -246,7 +234,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(146, 55);
+            this.btnXoa.Location = new System.Drawing.Point(205, 55);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(52, 35);
             this.btnXoa.TabIndex = 0;
@@ -544,7 +532,6 @@
         private System.Windows.Forms.TextBox txtXemTruoc;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtVeTrai;
-        private System.Windows.Forms.Button btnBoXoa;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox3;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
