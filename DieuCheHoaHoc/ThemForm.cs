@@ -16,7 +16,6 @@ namespace DieuCheHoaHoc
         private List<PhanUng> phanUngs = new List<PhanUng>();
         private List<PhanUng> listPhanUng;
         private List<PhanUng> pu = new List<PhanUng>();
-        //private Stack<int> delList;
         string str;
 
         public ThemForm()
@@ -36,13 +35,8 @@ namespace DieuCheHoaHoc
             List<PhanUng> selected = new List<PhanUng>();
             for (int i = 0; i < phanUngs.Count; i++)
             {
-                //if (!delList.Contains(i + 1))
-                //{
                 selected.Add(phanUngs[i]);
-                //}
             }
-
-            //viet lai file
             DataTriThuc.toFile(selected);
         }
 
@@ -57,7 +51,6 @@ namespace DieuCheHoaHoc
                 "\nBấm vào ô xem trước trước khi thêm để kiểm tra trước khi thêm phản ứng";
             DataTriThuc data = new DataTriThuc();
             listPhanUng = data.GetPhanUngs();
-            //delList = new Stack<int>();
             hienThi();
         }
 
@@ -67,16 +60,8 @@ namespace DieuCheHoaHoc
             int n = listPhanUng.Count;
             for (int i = 0; i < n; i++)
             {
-                //if (!delList.Contains(i + 1))
-                //{
                 lbxPhanUng.Items.Add((i + 1) + " _ " + listPhanUng[i].ToString());
-                //}
             }
-        }
-
-        private void capNhatCacPhanUng()
-        {
-
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -86,27 +71,31 @@ namespace DieuCheHoaHoc
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < pu.Count(); i++)
+            List<ChatHoaHoc> vtCheck = pu[0].GetVeTrai();
+            string dkCheck = txtDieuKien.Text;
+            bool check = true;
+            foreach(PhanUng pu in listPhanUng)
             {
-                if (i == 0)
+                if (pu.GetVeTrai().SequenceEqual(vtCheck))
                 {
-                    if (!listPhanUng.Contains(pu[i]))
+                    if (pu.DieuKien.Trim() == dkCheck.Trim())
                     {
-                        phanUngs.Add(pu[i]);
-                    }
-                    else
-                    {
-                        MessageBox.Show("Phản ứng đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        check = false;
                         break;
                     }
                 }
-                else
+            }
+
+            if (check)
+            {
+                for (int i = 0; i < pu.Count(); i++)
                 {
-                    if (!listPhanUng.Contains(pu[i]))
-                    {
-                        phanUngs.Add(pu[i]);
-                    }
+                    phanUngs.Add(pu[i]);
                 }
+            }
+            else
+            {
+                MessageBox.Show("Phản ứng đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             pu.Clear();
             ThemPU();

@@ -12,16 +12,18 @@ namespace DieuCheHoaHoc
         private List<ChatHoaHoc> vePhai;
         private string dieuKien;
 
+        public string DieuKien { get => dieuKien; set => dieuKien = value; }
+
         public PhanUng(List<ChatHoaHoc> veTrai, List<ChatHoaHoc> vePhai, string dieuKien) {
             this.veTrai = veTrai;
             this.vePhai = vePhai;
-            this.dieuKien = dieuKien.Trim();
+            this.DieuKien = dieuKien.Trim();
         }
 
         public PhanUng(string trithuc) {
             veTrai = new List<ChatHoaHoc>();
             vePhai = new List<ChatHoaHoc>();
-            dieuKien = "";
+            DieuKien = "";
 
             string[] str = trithuc.Split(' ');
             bool isVeTrai = true;
@@ -32,7 +34,7 @@ namespace DieuCheHoaHoc
                         if (str[i].Length > 1) {
                             i++;
                             while (str[i] != ")") {
-                                dieuKien += str[i] + " ";
+                                DieuKien += str[i] + " ";
                                 i++;
                             }
                         }
@@ -54,8 +56,8 @@ namespace DieuCheHoaHoc
             }
             s += veTrai[veTrai.Count - 1] + " ";
             s += "---";
-            if (dieuKien != "") {
-                s += " " + dieuKien + "---";
+            if (DieuKien != "") {
+                s += " " + DieuKien + "---";
             }
             s += "> ";
             for (int i = 0; i < vePhai.Count - 1; i++) {
@@ -87,8 +89,8 @@ namespace DieuCheHoaHoc
                 s += " ";
             }
             s += "-";
-            if (dieuKien != "") {
-                s += "( " + dieuKien.Trim() + " )";
+            if (DieuKien != "") {
+                s += "( " + DieuKien.Trim() + " )";
             }
 
             foreach (ChatHoaHoc chh in vePhai) {
