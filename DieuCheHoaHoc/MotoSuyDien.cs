@@ -68,34 +68,37 @@ namespace DieuCheHoaHoc
         /// <returns></returns>
         public List<PhanUng> suyDien(HashSet<ChatHoaHoc> chatHoaHocs, ChatHoaHoc chatCanDieuChe) {
             // su dung data tri thuc de thuc hien suy dien tien
-            List<PhanUng> kq = new List<PhanUng>();
-            HashSet<ChatHoaHoc> tg = chatHoaHocs;
-            C5.IntervalHeap<PhanUng> sat = new C5.IntervalHeap<PhanUng>(new PhanUngComparer(getHeuristic(chatCanDieuChe), chatCanDieuChe));
+            List<PhanUng> kq = new List<PhanUng>(); //kq là những luật được sử dụng đẻ suy diễn
+            HashSet<ChatHoaHoc> tg = chatHoaHocs; //TG
+            C5.IntervalHeap<PhanUng> sat = new C5.IntervalHeap<PhanUng>(new PhanUngComparer(getHeuristic(chatCanDieuChe), chatCanDieuChe)); //SAT
             Dictionary<PhanUng, bool> visited = new Dictionary<PhanUng, bool>();
 
             while (!tg.Contains(chatCanDieuChe)) {
                 // them vao sat cac luat co the su dung den hien tai
-                foreach (PhanUng pu in tapLuat) {
+                foreach (PhanUng pu in tapLuat) { 
                     bool ok = true;
-                    foreach (ChatHoaHoc chh in pu.GetVeTrai()) {
+                    //xét các chất trong TG phù hợp với luật nào
+                    foreach (ChatHoaHoc chh in pu.GetVeTrai()) { 
                         if (!tg.Contains(chh)) {
                             ok = false;
                             break;
                         }
                     }
+                    //Nếu luật đó phù hợp và chưa được thêm
                     if (ok && !visited.ContainsKey(pu)) {
-                        // them vao sat
+                        // thêm luật vào SAT
                         sat.Add(pu);
+                        //đánh dấu đã được thêm
                         visited[pu] = true;
                     }
                 }
 
-                // neu tap sat het luat thi dung
+                //Nếu tập SAT hết luật thì dừng
                 if (sat.Count == 0) {
                     break;
                 }
 
-                // lay ra luat duoc chon de dung
+                // Lấy ra luật được chọn để dùng
                 PhanUng duocChon = sat.DeleteMin();
                 kq.Add(duocChon);
                 foreach (ChatHoaHoc chh in duocChon.GetVePhai()) {
