@@ -71,6 +71,7 @@ namespace DieuCheHoaHoc
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+            //kiểm tra phản ứng tồn tại
             List<ChatHoaHoc> vtCheck = pu[0].GetVeTrai();
             string dkCheck = txtDieuKien.Text;
             bool check = true;
@@ -86,6 +87,7 @@ namespace DieuCheHoaHoc
                 }
             }
 
+            //nếu chưa tồn tại
             if (check)
             {
                 for (int i = 0; i < pu.Count(); i++)
@@ -99,7 +101,6 @@ namespace DieuCheHoaHoc
             }
             pu.Clear();
             ThemPU();
-            //lbxPhanUng.Items.Add(listPhanUng.Count + " _ " + str);
             btnThem.Enabled = false;
 
             //cập nhật List pu
@@ -225,6 +226,7 @@ namespace DieuCheHoaHoc
             }
             else
             {
+                //tách phản ứng thành các luật nhỏ
                 str = " ";
                 for (int i = 0; i < vp.Count(); i++)
                 {

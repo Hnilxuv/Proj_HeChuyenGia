@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DieuCheHoaHoc
 {
+    //kế thừa IComparer
     internal class PhanUngComparer : IComparer<PhanUng>
     {
         private Dictionary<ChatHoaHoc, int> cmp;

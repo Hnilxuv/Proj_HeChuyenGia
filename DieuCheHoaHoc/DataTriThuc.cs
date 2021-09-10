@@ -13,6 +13,7 @@ namespace DieuCheHoaHoc
         public static string triThucPath = @"D:\Project\tri_thuc.txt";
         private List<PhanUng> phanUngs;
 
+        //lưu vào file
         public static void toFile(List<PhanUng> pus) {
             StreamWriter sw = new StreamWriter(triThucPath, true);
             foreach (PhanUng pu in pus) {
@@ -21,6 +22,7 @@ namespace DieuCheHoaHoc
             sw.Close();
         }
 
+        //xoá luật
         public static void toDelete(string luat)
         {
             string tempFile = Path.GetTempFileName();
@@ -37,10 +39,12 @@ namespace DieuCheHoaHoc
                     {
                         if (d < d2 - 2)
                         {
+                            //k phải dòng cuối
                             sw.WriteLine(linee);
                         }
                         else
                         {
+                            //dòng cuối cùng
                             sw.Write(linee);
                         }
                         d++;
@@ -49,9 +53,9 @@ namespace DieuCheHoaHoc
             }
             File.Delete(triThucPath);
             File.Move(tempFile, triThucPath);
-
         }
 
+        //đếm số luật trong file
         public static int dem()
         {
             StreamReader sr = new StreamReader(triThucPath);
@@ -74,7 +78,6 @@ namespace DieuCheHoaHoc
             StreamReader sr = new StreamReader(triThucPath);
             while (!sr.EndOfStream) {
                 list.Add(sr.ReadLine());
-                //phanUngs.Add(new PhanUng(sr.ReadLine()));
             }
             for (int i = 0; i < list.Count; i++)
             {
@@ -112,7 +115,6 @@ namespace DieuCheHoaHoc
             for (int i = 0; i < list.Count; i++)
             {
                 phanUngs.Add(new PhanUng(list[i].ToString()));
-                //Console.WriteLine(list[i].ToString());
             }
             sr.Close();
         }

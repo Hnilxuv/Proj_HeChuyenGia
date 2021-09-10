@@ -74,7 +74,7 @@ namespace DieuCheHoaHoc
             Dictionary<PhanUng, bool> visited = new Dictionary<PhanUng, bool>();
 
             while (!tg.Contains(chatCanDieuChe)) {
-                // them vao sat cac luat co the su dung den hien tai
+                // them vao SAT cac luat co the su dung den hien tai
                 foreach (PhanUng pu in tapLuat) { 
                     bool ok = true;
                     //xét các chất trong TG phù hợp với luật nào
